@@ -5,17 +5,20 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Our Vineyard</title>
 	<style type="text/css">
+	@import url(http://fonts.googleapis.com/css?family=Parisienne);
+
 		@media only screen and (max-width: 660px) {
-			table.container { 
+			table.container {
 				width: 480px !important;
 			}
 
 			td.logo img {
 				display: none;
 			}
-			
+
 			td.logo {
-				background: #fff url(images/logo_medium.gif) no-repeat 10px 10px; height: 45px;
+				background: #fff url(images/logo_medium.gif) no-repeat 10px 10px;
+				height: 45px;
 			}
 
 			td.headline {
@@ -46,7 +49,17 @@
 				width: auto;
 			}
 
-			
+
+			video {
+				width: 416px !important;
+				height: 312px !important;
+			}
+
+			video img {
+				width: 416px !important;
+				height: 312px !important;
+			}
+
 		}
 
 		@media only screen and (max-width: 510px) {
@@ -54,12 +67,12 @@
 				width: 100% !important;
 			}
 
-			table.container td { 
-				border: none !important; 
+			table.container td {
+				border: none !important;
 			}
 
 			td.logo {
-				background: #fff url(images/logo_small.gif) no-repeat center 10px; 
+				background: #fff url(images/logo_small.gif) no-repeat center 10px;
 				height: 32px;
 			}
 
@@ -69,14 +82,39 @@
 			}
 
 			td.banner {
-				height: 115px; 
+				height: 115px;
 				background: url(images/banner_small.jpg) no-repeat right 0px;
+			}
+
+			td.content {
+				line-height: 20px !important;
+				padding-bottom: 10px !important;
+				background: #f5f2e5 url(images/banner_small_ghost.jpg) no-repeat right 0px !important
+			}
+
+			td.footer {
+				padding: 20px 30px !important;
+			}
+
+			video {
+				width: 300px !important;
+				height: 255px !important
+			}
+
+			video img {
+				width: 300px !important;
+				height: 255px !important;
 			}
 		}
 	</style>
 </head>
 
 <body bgcolor="#efe1b0">
+
+	<div style="font-size: 1px; color: #efe1b0; display: none;">
+		Place your preview message text here. This will show in most email clients as the preview text in the inbox. I
+		am now just typing to make sure that it is long enough to take up all the space available in the preview.
+	</div>
 
 	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#efe1b0">
 		<tr>
@@ -94,7 +132,7 @@
 					<tr>
 						<td valign="top" class="headline" bgcolor="#ffffff"
 							style="padding: 15px 20px 5px 30px; border-left: 1px solid #dbc064; border-right: 1px solid #dbc064; font-family: Arial, Helvetica, sans-serif; font-size: 16px; line-height: 22px;">
-							<h1 style="margin: 0px 0px 15px 0px; font-weight: normal; font-size: 32px; color: #723c7f;">
+							<h1 style="margin: 0px 0px 15px 0px; font-weight: normal; font-family: 'Parisienne', Arial; font-size: 32px; color: #723c7f;">
 								Main Heading Here</h1>
 						</td>
 					</tr>
@@ -112,11 +150,14 @@
 							<!-- placeholder text for content row -->
 
 							<table width="160" align="right" class="button" style="margin: 0px 0px 10px 30px">
-							<tr>
-								<td style="text-align: center; background-color: #71a412; padding: 10px 15px; border-radius: 5px; ">
-									<a href="#" style="color: white; font-size: 18px; letter-spacing: 1px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606; font-family: Arial, Helvetica, sans-serif;">Learn More</a>
-								</td>
-							</tr>
+								<tr>
+									<td
+										style="text-align: center; background-color: #71a412; padding: 10px 15px; border-radius: 5px; ">
+										<a href="#"
+											style="color: white; font-size: 18px; letter-spacing: 1px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606; font-family: Arial, Helvetica, sans-serif;">Learn
+											More</a>
+									</td>
+								</tr>
 							</table>
 
 							Lorem ipsum dolor sit amet consec tetur adip isicing elit sed do eiusmod tempor incididunt
@@ -134,35 +175,10 @@
 					<tr>
 						<td valign="top" bgcolor="#f5f2e5" class="promos"
 							style="padding: 10px 30px 25px 30px; border-right:1px solid #dbc064; border-left:1px solid #dbc064; background-color: #f5f2e5; font-family: Arial, Helvetica, sans-serif;">
-							<table class="promo_1" width:"270" align="left">
-								<tr>
-									<td>
-										<img class="promo" alt="Promo image 1" src="images/promo_1_large.jpg">
-										<h3 style="font-size:16px;">Promo heading here</h3>
-										Lorem ipsum dolor sit amet consectetur <br>
-										aliqua elit sed do eiusmod.
-										<br><br>
-										<a href="#"
-											style="background-color: #71a412; border-radius: 5px; color: #fff; padding: 5px 10px 5px 10px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606;">Learn
-											more</a>
-
-									</td>
-								</tr>
-							</table>
-							<table class="promo_2" width:"270" align="right"
-								style="margin-left: 300px; margin-top: -272px;">
-								<tr>
-									<td>
-										<img class="promo" alt="Promo image 2" src="images/promo_2_large.jpg">
-										<h3 style="font-size:16px;">Promo heading here</h3>
-										Lorem ipsum dolor sit amet consectetur
-										aliqua elit sed do eiusmod.
-										<br><br>
-										<a href="#" style="background-color: #71a412; border-radius: 5px; color: #fff; padding: 5px 10px 5px 10px; text-decoration: none; text-shadow: 0px 2px 2px #3a5606;">Learn more</a>
-
-									</td>
-								</tr>
-							</table>
+							<video width="570" poster="video/our_vineyard.jpg" controls="controls">
+							<source src="video/our_vineyard.mp4">
+								<a href="http://www.b-ford.dev"><img src="video/our_vineyard.jpg" alt=""></a>
+							</video>
 						</td>
 					</tr>
 					<!-- CALLOUT ROW  -->
